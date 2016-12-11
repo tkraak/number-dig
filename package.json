@@ -1,0 +1,27 @@
+{
+  "name": "number-dig",
+  "description": "Having fun with arrays.",
+  "version": "0.1.0",
+  "author": "Tom Kraak",
+  "main": "lib",
+  "ava": {
+    "verbose": "true",
+    "files": "test/index.js"
+  },
+  "scripts": {
+    "test": "nyc ava",
+    "lint": "standard | snazzy",
+    "dev": "chokidar '**/*.js' -c 'standard && ava'"
+  },
+  "repository": "tkraak/number-dig",
+  "license": "MIT",
+  "bugs": "https://github.com/tkraak/number-dig/issues",
+  "homepage": "https://github.com/tkraak/number-dig#readme",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "chokidar-cli": "^1.2.0",
+    "nyc": "^10.0.0",
+    "snazzy": "^5.0.0",
+    "standard": "^8.6.0"
+  }
+}
